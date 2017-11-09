@@ -1,0 +1,296 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    margin: 0;
+    margin-top: -60px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+}
+
+.family {
+    margin-left: 130px;
+    margin-right: 25px;
+    margin-top: 150px;
+    width: 650px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    margin-top: 250px;
+    width: 150px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+    margin-top: 250px;
+    padding: 0;
+    width: 250px;
+}
+
+div {
+    border-radius: 5px;
+    background-color: #4c0099;
+    margin-bottom: 20px;
+    width: 250px;
+    border-right: 3px solid #330066;
+    border-bottom: 3px solid #330066;
+    padding: 5px;
+}
+
+
+/*
+div:nth-child(1),
+div:nth-child(2) {
+    margin-bottom: 50px;
+}
+*/
+
+header {
+    background-color: #4c0099;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+h1 {
+    font-size: 15px;
+    color: white;
+    font-family: myriad pro;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 15px;
+    color: white;
+    font-family: myriad pro;
+    margin: 8px;
+}
+
+h3 {
+    font-size: 15px;
+    color: black;
+    font-family: myriad pro;
+    margin: 0 0 10px 0px;
+}
+
+.risicotekst {
+    font-size: 12px;
+    color: black;
+    font-family: sans-serif;
+    font-style: italic;
+    margin: 0 0 10px 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+}
+
+p {
+    font-size: 12px;
+    color: black;
+    font-family: Myriad pro;
+    margin: 5px;
+}
+
+#slidecontainer {
+    width: 250px;
+    margin-left: 700px;
+    margin-top: 50px;
+}
+
+
+/* The slider itself */
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 5px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    color: black;
+}
+
+.slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #4c0099;
+    cursor: pointer;
+}
+
+#waarde {
+    font-size: 15px;
+    color: black;
+    font-family: Myriad pro;
+    margin: 5px;
+}
+
+#myProgress {
+    width: 250px;
+    height: 20px;
+    background-color: white;
+    border: 1px solid #4c0099;
+    margin-top: 50px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+#myBar {
+    width: 1%;
+    height: 20px;
+    background-color: cyan;
+    font-family: Myriad pro;
+}
+
+#overalltool {
+    display: flex;
+    flex-direction: row;
+}
+
+.links {
+    margin-left: 80px;
+}
+
+#alinea {
+    font-size: 15px;
+    color: black;
+    font-family: Myriad pro;
+    margin-top: 60px;
+}
+
+#voorpagina {
+    border-radius: 5px;
+    border: 1px solid #4c0099;
+    margin-bottom: 20px;
+    width: 500px;
+    padding: 5px;
+    margin: auto;
+    margin-top: 150px;
+    text-align: left;
+}
+
+#voorpagina > p {
+    color: black;
+    font-size: 14px;
+    font-family: Myriad Pro;
+    margin: 10px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: #4c0099;
+    margin-top: 20px;
+    width: 100px;
+    border-right: 3px solid #330066;
+    border-bottom: 3px solid #330066;
+    padding: 5px;
+    border-top: none;
+    border-left: none;
+    color: white;
+    font-size: 14px;
+    font-family: Myriad Pro;
+    text-decoration: none;
+}
+
+a {
+    color: white;
+    font-size: 14px;
+    font-family: Myriad Pro;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+#info {
+    width: 20px;
+    height: 20px;
+    margin-left: 400px;
+}
+
+#back {
+    width: 13px;
+    height: 18px;
+    margin-right: 400px;
+}
+
+#slide {
+    font-style: italic;
+}
+
+#toolp {
+    margin-top: 50px;
+    margin-bottom: -40px;
+    margin-left: 30px;
+    font-size: 12px;
+    color: black;
+    font-family: Myriad pro;
+}
+
+.dropbtn {
+    width: 20px;
+    height: 20px;
+    margin-left: 400px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #330066;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content > p {
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+    color: black;
+    font-family: Myriad pro;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
